@@ -15,6 +15,7 @@ start_app("com.ddread")
 
 
 class Turn_page(unittest.TestCase):
+
     @staticmethod
     def test_turn():
         try:
