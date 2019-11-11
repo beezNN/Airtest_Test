@@ -23,7 +23,6 @@ class Turn_page(unittest.TestCase):
                 if (i < 9999):
                     touch([950, 1100])
                     sleep(0.5)
-                    # print(i)
                 else:
                     touch([580, 1086])
                     poco("com.ddread:id/id_img_toolbar_back").click()
